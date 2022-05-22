@@ -1,0 +1,58 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: rgb(139, 139, 165);
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  color: #007bff;
+}
+
+#profile {
+  height: 250px;
+  width: 300px;
+  border-radius: 36px;
+}
+
+#landing {
+  height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tools {
+  border: 2px solid rgb(206, 196, 196);
+  margin: 20px;
+  padding: 20px;
+  height: 200px;
+  width: 75%;
+  border-radius: 6px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
